@@ -3168,10 +3168,17 @@ public final class Settings {
         public static final String ADB_PORT = "adb_port";
 
         /**
+<<<<<<< HEAD
          * The hostname for this device
          * @hide
          */
         public static final String DEVICE_HOSTNAME = "device_hostname";
+=======
+         * Whether to display the ADB notification.
+         * @hide
+         */
+        public static final String ADB_NOTIFY = "adb_notify";
+>>>>>>> 6cc15b8... Hide Adb Notification (framework)
 
         /**
          * Setting to allow mock locations and location provider status to be injected into the
