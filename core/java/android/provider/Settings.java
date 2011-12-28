@@ -2564,7 +2564,6 @@ public final class Settings {
          */
         public static final String CFX_NAVBAR = "cfx_navbarenable";
 
-<<<<<<< HEAD
         /**
          * @hide
          */
@@ -2575,8 +2574,6 @@ public final class Settings {
          */
         public static final String CFX_NAVBAR_HEIGHT = "cfx_navbar_height";
 
-=======
->>>>>>> ab08fdd33b343e01ef8a7a6feccc7fde9e457838
         /** Control the display of the action overflow button within app UI.
          * 0 = use system default
          * 1 = force on
@@ -3171,17 +3168,16 @@ public final class Settings {
         public static final String ADB_PORT = "adb_port";
 
         /**
-<<<<<<< HEAD
          * The hostname for this device
          * @hide
          */
         public static final String DEVICE_HOSTNAME = "device_hostname";
-=======
+         /*
          * Whether to display the ADB notification.
          * @hide
          */
         public static final String ADB_NOTIFY = "adb_notify";
->>>>>>> 6cc15b8... Hide Adb Notification (framework)
+
 
         /**
          * Setting to allow mock locations and location provider status to be injected into the
