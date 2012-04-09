@@ -34,6 +34,10 @@ ifeq ($(TARGET_BOARD_PLATFORM), s5pc110)
 	LOCAL_CFLAGS += -DREFRESH_RATE=56
 endif
 
+ifeq ($(BOARD_USE_ADRENO_130_GPU),true)
+	LOCAL_CFLAGS += -DADRENO_130_GPU
+endif
+
 LOCAL_SHARED_LIBRARIES := \
 	libcutils \
 	libhardware \
