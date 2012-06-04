@@ -53,7 +53,7 @@ import java.util.HashSet;
 public final class Settings {
 
     // Intent actions for Settings
-
+    //
    /**
     * Intent actions for Settings
     *
