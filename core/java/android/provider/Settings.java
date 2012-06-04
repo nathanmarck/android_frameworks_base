@@ -55,7 +55,6 @@ public final class Settings {
 
     // Intent actions for Settings
 
-
    /**
     * Intent actions for Settings
     *
@@ -2533,6 +2532,12 @@ public final class Settings {
          * @hide
          */
         public static final String STATUS_BAR_NOTIF_COUNT = "status_bar_notif_count";
+
+        /**
+         * Add option to display the navigation bar
+         * @hide
+         */
+        public static final String CFX_NAVBAR = "cfx_navbarenable";
 
         /**
          * Settings to backup. This is here so that it's in the same place as the settings
