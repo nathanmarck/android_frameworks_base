@@ -43,7 +43,6 @@ import android.text.TextUtils;
 import android.util.AndroidException;
 import android.util.Log;
 import android.view.WindowOrientationListener;
-
 import java.net.URISyntaxException;
 import java.util.HashMap;
 import java.util.HashSet;
