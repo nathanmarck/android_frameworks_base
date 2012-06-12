@@ -96,5 +96,4 @@
 
     <!-- Brightness panel top margin -->
     <dimen name="brightness_panel_top">80dp</dimen>
-
 </resources>
