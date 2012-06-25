@@ -1129,7 +1129,7 @@ public class PhoneWindowManager implements WindowManagerPolicy {
         if (mHasNavigationBar) {
             mNavigationBarHeight = Settings.System.getInt(
                     mContext.getContentResolver(),
-                    Settings.System.NAVIGATION_BAR_HEIGHT,
+                    Settings.System.CFX_NAVBAR_HEIGHT,
                     mContext.getResources()
                             .getDimensionPixelSize(
                                     com.android.internal.R.dimen.navigation_bar_height));
